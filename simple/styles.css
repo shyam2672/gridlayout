@@ -1,0 +1,95 @@
+
+  @supports (grid-template-rows: masonry) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: masonry;
+        grid-auto-flow: dense;
+        display: grid;
+    
+       
+    }
+}
+  
+   
+  
+    .featured1 {
+        grid-column: span 2;
+      }
+      .featured2 {
+        grid-column: span 3;
+      }
+.card{
+    /* display: inline-block; */
+    background-color: #2a2a2a;
+    color: wheat;
+}
+
+.container1{
+    /* grid-area: container1; */
+    height: 350px;
+    width: 350px;
+}
+
+.container2{
+    /* grid-area: container2; */
+
+    height: 200px;
+    width: 400px;
+}
+.container3{
+    /* grid-area: container3; */
+
+    height: 250px;
+    width: 600px;
+}
+.container4{
+    /* grid-area: container4; */
+
+    height: 435px;
+    width: 350px;
+}
+.container5{
+    /* grid-area: container5; */
+    height: 294px;
+    width: 200px;
+}
+
+.container6{
+
+    height: 294px;
+    width: 200px;
+}
+.container7{
+
+    height: 294px;
+    width: 165px;
+}
+
+.container8{
+    /* grid-area: container6; */
+
+    height: 429px;
+    width: 570px;
+}
+.container9{
+    /* grid-area: container7; */
+
+    height: 303px;
+    width: 297px;
+}
+.container10{
+    /* grid-area: container8; */
+
+    height: 525px;
+    width: 377px;
+}
+
+.container11{
+    /* grid-area: container9; */
+
+    height: 377px;
+    width: 570px;
+}
+
+
